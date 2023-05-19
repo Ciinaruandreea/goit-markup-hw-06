@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <title>Document</title>
+  </head>
+
+  <body class="global-body">
+    <!-- Header-->
+    <header class="global-header">
+      <div class="header-div container">
+        <nav class="nav">
+          <a class="webstudio-nav" href="WebStudio">
+            <span class="web-nav">Web</span>
+            <span class="studio-nav">Studio</span>
+          </a>
+          <ul class="nav-bar">
+            <li class="nav-item">
+              <a class="nav-link current-page" href="index.html" rel="">
+                Studio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contacts">Contacts</a>
+            </li>
+          </ul>
+          <div class="header-contacts">
+            <ul class="header-contacts-ul">
+              <li class="contacts-li">
+                <a class="header-mail-tel" href="mailto:info@devstudio.com">
+                  <svg class="header-icon" width="16" height="16">
+                    <use href="./images/icons.svg.svg#icon-mail"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
+
+              <li class="contacts-li">
+                <a class="header-mail-tel" href="tel:+12127724150">
+                  <svg class="header-icon" width="16" height="16">
+                    <use href="./images/icons.svg.svg#icon-smartphone"></use>
+                  </svg>
+                  +1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <section class="top-main">
+        <div class="top-main-container container">
+          <h1 class="top-main-title">
+            EFFECTIVE SOLUTIONS FOR <br />
+            YOUR BUSINESS
+          </h1>
+
+          <button data-modal-open class="top-main-button" type="button">
+            Request our service
+          </button>
+        </div>
+      </section>
+
+      <section class="group-main">
+        <div class="container">
+          <ul class="group-main-position">
+            <li class="group-main-container">
+              <div class="group-main-icon-list">
+                <svg class="group-main-icon">
+                  <use href="./images/icons.svg.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h4 class="group-main-title">ATTENTION TO DETAILS</h4>
+              <p class="group-main-text">
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </li>
+
+            <li class="group-main-container">
+              <div class="group-main-icon-list">
+                <svg class="group-main-icon">
+                  <use href="./images/icons.svg.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h4 class="group-main-title">PUNCTUALITY</h4>
+              <p class="group-main-text">
+                With us, you can feel safe and secure. An important principle of
+                the company: respect your time and deadlines.
+              </p>
+            </li>
+
+            <li class="group-main-container">
+              <div class="group-main-icon-list">
+                <svg class="group-main-icon">
+                  <use href="./images/icons.svg.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h4 class="group-main-title">PLANNING</h4>
+              <p class="group-main-text">
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </li>
+
+            <li class="group-main-container">
+              <div class="group-main-icon-list">
+                <svg class="group-main-icon">
+                  <use href="./images/icons.svg.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h4 class="group-main-title">MODERN TECHNOLOGIES</h4>
+              <p class="group-main-text">
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section work-section">
+        <div class="container">
+          <h2 class="work-title">What we do</h2>
+
+          <ul class="work-images-position">
+            <li class="work">
+              <img src="./images/work_one.jpg" alt="workone" />
+            </li>
+            <li class="work">
+              <img src="./images/work_two.jpg" alt="worktwo" />
+            </li>
+            <li class="work">
+              <img src="./images/work_three.jpg" alt="workthree" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- TEAM-->
+      <section class="section section-our-team">
+        <div class="container">
+          <h2 class="title-our-team">Our Team</h2>
+
+          <ul class="cards-team">
+            <li class="card-team">
+              <img
+                class="card-team-img"
+                src="./images/ChristopherWalker.jpg"
+                alt="workerone"
+                width="270"
+              />
+
+              <h4 class="card-team-name">Christopher Walker</h4>
+              <p class="card-team-text">Product Designer</p>
+              <div class="our-team-icon-div">
+                <a
+                  href="http://www.instagram.com/"
+                  class="icon-circle"
+                  aria-label="Instagram"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://twitter.com/"
+                  class="icon-circle"
+                  aria-label="Twitter"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://facebook.com/"
+                  class="icon-circle"
+                  aria-label="Facebook"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://linkedin.com/"
+                  class="icon-circle"
+                  aria-label="Linkedin"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="card-team">
+              <img
+                class="card-team-img"
+                src="./images/KylieEvans.jpg"
+                alt="workertwo"
+                width="270"
+              />
+              <h4 class="card-team-name">Kylie Evasn</h4>
+              <p class="card-team-text">Frontend Developer</p>
+              <div class="our-team-icon-div">
+                <a
+                  href="http://www.instagram.com/"
+                  class="icon-circle"
+                  aria-label="Instagram"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://twitter.com/"
+                  class="icon-circle"
+                  aria-label="Twitter"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://facebook.com/"
+                  class="icon-circle"
+                  aria-label="Facebook"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://linkedin.com/"
+                  class="icon-circle"
+                  aria-label="Linkedin"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+
+            <li class="card-team">
+              <img
+                class="card-team-img"
+                src="./images/RyanHarris.jpg"
+                alt="workerthree"
+                width="270"
+                height="260"
+              />
+
+              <h4 class="card-team-name">Ryan Harris</h4>
+              <p class="card-team-text">Marketing</p>
+              <div class="our-team-icon-div">
+                <a
+                  href="http://www.instagram.com/"
+                  class="icon-circle"
+                  aria-label="Instagram"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://twitter.com/"
+                  class="icon-circle"
+                  aria-label="Twitter"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://facebook.com/"
+                  class="icon-circle"
+                  aria-label="Facebook"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://linkedin.com/"
+                  class="icon-circle"
+                  aria-label="Linkedin"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="card-team">
+              <img
+                class="card-team-img"
+                src="./images/TylerMoore.jpg"
+                alt="workerfour"
+                width="270"
+                height="260"
+              />
+
+              <h4 class="card-team-name">Tyler Moore</h4>
+              <p class="card-team-text">UI Designer</p>
+              <div class="our-team-icon-div">
+                <a
+                  href="http://www.instagram.com/"
+                  class="icon-circle"
+                  aria-label="Instagram"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://twitter.com/"
+                  class="icon-circle"
+                  aria-label="Twitter"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://facebook.com/"
+                  class="icon-circle"
+                  aria-label="Facebook"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href="http://linkedin.com/"
+                  class="icon-circle"
+                  aria-label="Linkedin"
+                >
+                  <svg>
+                    <use href="./images/icons.svg.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="customers-title">Regular Customers</h2>
+          <ul class="regular-customers-icon">
+            <li class="customer-li">
+              <a class="customer-a" href="">
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-logo-1"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customer-li">
+              <a class="customer-a" href="">
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-logo-2"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customer-li">
+              <a class="customer-a" href="">
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-logo-3"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customer-li">
+              <a class="customer-a" href="">
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-logo-4"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customer-li">
+              <a class="customer-a" href="">
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-logo-5"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customer-li">
+              <a class="customer-a" href="">
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-logo-6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Contacts-->
+    <footer class="footer-page">
+      <div class="container">
+        <address class="footer-class-address">
+          <ul class="footer-address">
+            <li class="footer-address-li-studio">
+              <a class="webstudio-footer" href="WebStudio">
+                <span class="web-footer">Web</span>
+                <span class="studio-footer">Studio</span>
+              </a>
+            </li>
+            <li class="footer-address-li">
+              <span class="footer-name-address"
+                >695 Park Ave, NY 10065, USA</span
+              >
+            </li>
+            <li class="footer-address-li">
+              <a class="mail-tel-footer" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-address-li">
+              <a class="mail-tel-footer" href="tel:+12127724150"
+                >+1 212-772-4150</a
+              >
+            </li>
+          </ul>
+
+          <div class="footer-icon-div">
+            <p class="footer-icon-title">Find us on</p>
+            <div class="find-icon-div">
+              <a
+                href="http://www.instagram.com/"
+                class="find-icon-circle"
+                aria-label="Instagram"
+              >
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-instagram"></use>
+                </svg>
+              </a>
+
+              <a
+                href="http://twitter.com/"
+                class="find-icon-circle"
+                aria-label="Twitter"
+              >
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-twitter"></use>
+                </svg>
+              </a>
+
+              <a
+                href="http://facebook.com/"
+                class="find-icon-circle"
+                aria-label="Facebook"
+              >
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-facebook"></use>
+                </svg>
+              </a>
+
+              <a
+                href="http://linkedin.com/"
+                class="find-icon-circle"
+                aria-label="Linkedin"
+              >
+                <svg>
+                  <use href="./images/icons.svg.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-form">
+            <form class="footer-form-section">
+              <p class="footer-form-text sub-label" for="sub-input">
+                Subscribe to the newsletter
+              </p>
+              <div class="footer-form-sub-bottom" role="group">
+                <input
+                  class="sub-input"
+                  type="email"
+                  name="email"
+                  id="sub-input"
+                  placeholder="E-mail"
+                />
+                <button class="footer-form-button" type="submit">
+                  Subscribe
+                  <svg class="footer-form-button-icon">
+                    <use href="./images/icons.svg.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </address>
+      </div>
+    </footer>
+
+    <!-- Modal-->
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-content">
+        <button class="close-btn" data-modal-close>&times;</button>
+        <form class="modal-form">
+          <h3 class="modal-form-title">
+            Leave your information and we'll call you back
+          </h3>
+          <label class="modal-form-label">
+            <span class="modal-form-span">Name</span>
+            <input class="modal-form-input" type="text" name="name" />
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg.svg#icon-person-black"></use>
+            </svg>
+          </label>
+          <label class="modal-form-label">
+            <span class="modal-form-span">Telephone</span>
+            <input class="modal-form-input" type="tel" name="phone-number" />
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg.svg#icon-phone-black"></use>
+            </svg>
+          </label>
+          <label class="modal-form-label">
+            <span class="modal-form-span">Email</span>
+            <input class="modal-form-input" type="email" name="email" />
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg.svg#icon-email-black"></use>
+            </svg>
+          </label>
+          <label class="modal-form-label label-textarea">
+            <span class="modal-form-span">Comments</span>
+            <textarea
+              class="modal-form-textarea"
+              name="comments"
+              rows="8"
+              placeholder="Enter the text"
+            ></textarea>
+          </label>
+          <div role="group" class="check-group">
+            <label class="modal-form-label checkbox-label">
+              <input class="modal-form-checkbox" type="checkbox" />
+              <svg class="check-icon">
+                <use href="./images/icons.svg.svg#icon-checkbox"></use>
+              </svg>
+              I agree with the letter and accept the Terms and Conditions
+            </label>
+          </div>
+          <button class="modal-form-button" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js" type="text/javascript"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
